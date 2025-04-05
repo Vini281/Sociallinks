@@ -1,0 +1,42 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: white; }
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+.container{
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+button{
+    display: block;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    transition: background-color;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+h4{
+    color: hsl(75, 94%, 57%);
+}
+@media screen and (min-width:400px) {
+    .container{
+        margin: 10% 20%;
+        padding: 10px;
+    }    
+}
+@media screen and (min-width:600px) {
+    .container{
+        margin: 10% 35%;
+        padding: 10px;
+    }
+    
+}
