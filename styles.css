@@ -1,4 +1,4 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; color: white}
 .attribution a { color: white; }
 body{
     background-color: hsl(0, 0%, 8%);
@@ -10,7 +10,7 @@ body{
     justify-content: center;
     border-radius: 8px;
 }
-button{
+button {
     display: block;
     flex-wrap: wrap;
     width: 80%;
@@ -24,6 +24,9 @@ button{
 button:hover{
     background-color: hsl(75, 94%, 57%);
 }
+a{
+    color: white;
+}
 h4{
     color: hsl(75, 94%, 57%);
 }
@@ -35,7 +38,7 @@ h4{
 }
 @media screen and (min-width:600px) {
     .container{
-        margin: 10% 35%;
+        margin: 50px 35%;
         padding: 10px;
     }
     
